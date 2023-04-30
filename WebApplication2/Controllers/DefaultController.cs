@@ -14,9 +14,9 @@ namespace WebApplication2.Controllers
         {
             List<Product> products = new List<Product>
             {
-                new Product { Id = 1, Name = "Product 1", Price = 6.99m, Description = "Description of Product 1" },
-                new Product { Id = 2, Name = "Product 2", Price = 2.35m, Description = "Description of Product 2" },
-                new Product { Id = 3, Name = "Product 3", Price = 15.99m, Description = "Description of Product 3" }
+                new Product { Id = 1, Name = "Table", Price = 6.99m, Description = "Just good table" },
+                new Product { Id = 2, Name = "Backpack", Price = 2.35m, Description = "For all your good stuff" },
+                new Product { Id = 3, Name = "Notebook", Price = 15.99m, Description = "Good for study, but not for gaming" }
             };
 
             return View(products as IEnumerable<Product>);
